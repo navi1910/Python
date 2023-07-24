@@ -14,7 +14,7 @@ print(s)
 
 # s.listen() #Starts the Transmission Control Protocol listener.
 
-# s.accept() # Accepts Client Connect
+# s.accept() # Accepts Client Connection
 
 # s.send() #Send TCP message
 
