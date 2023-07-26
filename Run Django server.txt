@@ -1,0 +1,39 @@
+C:/Users/X1 Yoga/anaconda3/Scripts/activate
+PS E:\Besant Python\django_2> conda activate base        
+PS E:\Besant Python\django_2> conda activate my_env      
+PS E:\Besant Python\django_2> python manage.py startapp calc
+PS E:\Besant Python\django_2> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not 
+work properly until you apply the migrations for app(s): 
+admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 26, 2023 - 08:45:24
+Django version 4.2.3, using settings 'django_2.settings' 
+Starting development server at http://127.0.0.1:8000/    
+Quit the server with CTRL-BREAK.
+
+
+PS E:\Besant Python\django_2> python manage.py runserver 
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not 
+work properly until you apply the migrations for app(s): 
+admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 26, 2023 - 09:00:14
+Django version 4.2.3, using settings 'django_2.settings' 
+Starting development server at http://127.0.0.1:8000/    
+Quit the server with CTRL-BREAK.
+
+
+

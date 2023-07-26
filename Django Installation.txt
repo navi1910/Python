@@ -1,0 +1,97 @@
+Microsoft Windows [Version 10.0.19045.3208]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\X1 Yoga>pip install virtualenvwrapper-win
+Collecting virtualenvwrapper-win
+  Downloading virtualenvwrapper_win-1.2.7-py3-none-any.whl (18 kB)
+Collecting virtualenv
+  Downloading virtualenv-20.24.1-py3-none-any.whl (3.0 MB)
+     |████████████████████████████████| 3.0 MB 3.3 MB/s
+Collecting distlib<1,>=0.3.6
+  Downloading distlib-0.3.7-py2.py3-none-any.whl (468 kB)
+     |████████████████████████████████| 468 kB 3.3 MB/s
+Collecting platformdirs<4,>=3.5.1
+  Downloading platformdirs-3.9.1-py3-none-any.whl (16 kB)
+Collecting filelock<4,>=3.12
+  Downloading filelock-3.12.2-py3-none-any.whl (10 kB)
+Installing collected packages: platformdirs, filelock, distlib, virtualenv, virtualenvwrapper-win
+  Attempting uninstall: filelock
+    Found existing installation: filelock 3.6.0
+    Uninstalling filelock-3.6.0:
+      Successfully uninstalled filelock-3.6.0
+Successfully installed distlib-0.3.7 filelock-3.12.2 platformdirs-3.9.1 virtualenv-20.24.1 virtualenvwrapper-win-1.2.7
+
+C:\Users\X1 Yoga>mkvirtualenv My_django
+ C:\Users\X1 Yoga\Envs is not a directory, creating
+created virtual environment CPython3.9.12.final.0-64 in 12442ms
+  creator CPython3Windows(dest=C:\Users\X1 Yoga\Envs\My_django, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\X1 Yoga\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==23.0.1, setuptools==67.6.1, wheel==0.40.0
+  activators BashActivator,BatchActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+(My_django) C:\Users\X1 Yoga>pip install django
+Collecting django
+  Downloading Django-4.2.3-py3-none-any.whl (8.0 MB)
+     ---------------------------------------- 8.0/8.0 MB 5.0 MB/s eta 0:00:00
+Collecting sqlparse>=0.3.1
+  Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+     ---------------------------------------- 41.2/41.2 kB 1.9 MB/s eta 0:00:00
+Collecting tzdata
+  Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+     ---------------------------------------- 341.8/341.8 kB 10.7 MB/s eta 0:00:00
+Collecting asgiref<4,>=3.6.0
+  Downloading asgiref-3.7.2-py3-none-any.whl (24 kB)
+Collecting typing-extensions>=4
+  Downloading typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Installing collected packages: tzdata, typing-extensions, sqlparse, asgiref, django
+Successfully installed asgiref-3.7.2 django-4.2.3 sqlparse-0.4.4 typing-extensions-4.7.1 tzdata-2023.3
+
+[notice] A new release of pip is available: 23.0.1 -> 23.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+(My_django) C:\Users\X1 Yoga>
+(My_django) C:\Users\X1 Yoga>cd ..
+
+(My_django) C:\Users>cd ..
+
+(My_django) C:\>e:
+
+(My_django) E:\>cd "Besant Python"
+
+(My_django) E:\Besant Python>mkdir Django_Essentials
+
+(My_django) E:\Besant Python>cd Django_Essentials
+
+(My_django) E:\Besant Python\Django_Essentials>django-admin startproject My_Project
+
+(My_django) E:\Besant Python\Django_Essentials>cd My_Project
+
+(My_django) E:\Besant Python\Django_Essentials\My_Project>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 0223-B669
+
+ Directory of E:\Besant Python\Django_Essentials\My_Project
+
+07/24/2023  10:18 AM    <DIR>          .
+07/24/2023  10:18 AM    <DIR>          ..
+07/24/2023  10:18 AM               688 manage.py
+07/24/2023  10:18 AM    <DIR>          My_Project
+               1 File(s)            688 bytes
+               3 Dir(s)  113,116,782,592 bytes free
+
+(My_django) E:\Besant Python\Django_Essentials\My_Project>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+July 24, 2023 - 10:23:32
+Django version 4.2.3, using settings 'My_Project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+[24/Jul/2023 10:24:33] "GET / HTTP/1.1" 200 10664
+Not Found: /favicon.ico
+[24/Jul/2023 10:24:33] "GET /favicon.ico HTTP/1.1" 404 2114
